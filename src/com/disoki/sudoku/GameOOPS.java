@@ -1,7 +1,7 @@
 /****************************************************************
  * 
  * Copyright (C) 2022 Dhinesh Sornakili. All rights reserved.
- * https://github.com/disoki/sudoku
+ * https://github.com/disoki/sudoku.git
  * 
  * Project 	: Sudoku Problem Solving with OOPS / Java
  * Version	: 1.0
