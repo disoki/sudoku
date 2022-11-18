@@ -82,7 +82,12 @@ public class Sudoku {
 	
 	// Solving the Sudoku loaded with User Input
 	public void solve() {
-		this.play();
+		Cell cellToSolve = null;
+		
+		this.calculatePossibleValues();
+		cellToSolve = this.pickCellToSolve();
+		
+		this.solve(cellToSolve);
 	}
 	
 	
@@ -170,11 +175,7 @@ public class Sudoku {
 	
 	
 	// Playing Sudoku to Solve the Problem
-	private void play() {
-		Cell cellToSolve = null;
-		
-		this.calculatePossibleValues();
-		cellToSolve = this.pickCellToSolve();
+	private void solve(Cell cellToSolve) {
 		
 		if( cellToSolve != null) {
 			cellToSolve.solve();

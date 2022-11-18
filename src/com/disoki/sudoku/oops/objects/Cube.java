@@ -37,7 +37,13 @@ public class Cube extends CellGroup{
 	
 	
 
-	// Identify the list of cells in the cube,link them to this cube and the cube to the cells
+	/**
+	 * 
+	 * Polymorphism : Method Overriding - Redefining the linkCells method for Cube 
+	 * 
+	 * Identify the list of cells in the cube,link them to this cube and the cube to the cells
+	 * 
+	 **/
 	protected void linkCells(int matrix, ArrayList<Cell> cells) {
 		int cellIndex = 0;
 		linkedCells = new ArrayList<Cell>();

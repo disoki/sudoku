@@ -41,7 +41,7 @@ public class Column extends CellGroup{
 
 	/**
 	 * 
-	 * Method Overriding - Redefining the linkCells method for Column 
+	 * Polymorphism :Method Overriding - Redefining the linkCells method for Column 
 	 * 
 	 * Identify the list of cells in the column,link them to this column and the column to the cells
 	 * 
