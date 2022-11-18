@@ -22,8 +22,10 @@ This project aims that the program solves the Sudoku puzzle enter by the user. T
 There are three packages
 
 1. **com.disoki.sudoku** : main method class to run the application
-2. **com.disoki.sudoku.basic.objects** : Java classes/ objects with basic design 
+2. **com.disoki.sudoku.basic.objects** : Java classes/ objects with basic design
 3. **com.disoki.sudoku.oops.objects** : Java classes covering few OOPS concepts like Abstraction, Polymorphism, Overloading, Overriding, Inheritance
+
+>The same solution is programmed in two different class design in both packages where **basic.objects** contains classes as individual entity. **oops.objects** contains same classes used parent class and incorporated with the the concepts like Inheritance, Encapsulation, Abstraction and Polymorphism(Overloading, Overriding)
 
 ## Steps to run
 
